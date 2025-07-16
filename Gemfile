@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+ruby "3.2.8" 
+
 gem 'jekyll-theme-chirpy', '~> 6.4', '>= 6.4.2'
 
 group :test do
