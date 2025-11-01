@@ -1,0 +1,10 @@
+{%- comment -%}
+  Local override for GitHub Pages (Jekyll 3.10.0):
+  Calculate reading time without passing extra args to number_of_words.
+{%- endcomment -%}
+
+{%- assign src = include.content | default: content -%}
+{%- assign words = src | strip_html | number_of_words -%}
+{%- assign wpm = site.reading_speed | default: 200 -%}
+{%- assign minutes = words | divided_by: wpm | ceil -%}
+{{ minutes }}
