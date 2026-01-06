@@ -21,15 +21,15 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: porsche812                          # the main title
+title: YuJoo                          # the main title
 
-tagline: Backend X AI (AWS/SAA · Python · LLM Systems)  # it will display as the sub-title
+tagline: Backend Engineer · Cloud & AI systems # it will display as the sub-title
 
 description: >                        # used by seo meta and the atom feed
-   웹 백엔드 시스템을 설계하고 운영해 온 개발자입니다.
-   현재 AWS 아키텍처와 Python을 중심으로,
-   AI 기술을 서비스 관점에서 적용하기 위한 학습과 프로젝트를 진행하고 있습니다.
-   장기적으로는 LLM 기반 서비스를 안정적으로 설계·운영하는 AI 백엔드 개발자를 지향합니다.
+  웹 백엔드 시스템을 설계하고 운영해 온 개발자입니다.
+  현재 AWS 아키텍처와 Python을 중심으로,
+  AI 기술을 서비스 관점에서 적용하기 위한 학습과 프로젝트를 진행하고 있습니다.
+  장기적으로는 LLM 기반 서비스를 안정적으로 설계·운영하는 AI 백엔드 개발자를 지향합니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://porsche812.github.io"
@@ -198,3 +198,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
