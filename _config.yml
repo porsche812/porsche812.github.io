@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: '/'
+baseurl: ""
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: porsche812                          # the main title
 
-tagline: 수정하시오   # it will display as the sub-title
+tagline: Backend X AI   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   porsche812's blog for studying development. c java spring jpa computer science architecture network database operating system
@@ -38,10 +38,10 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: porsche812
-  email: porsche812@gmail.com             # change to your email address
+  email: porsche812@naver.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/porsche812       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -79,13 +79,13 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/main/stadium.jpg
+avatar: assets/img/main/poo.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: porsche812   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
